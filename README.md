@@ -1,2 +1,2 @@
 # aurora
-Basic Node.js webserver
+Node.js webserver using Docker for deployment on AWS EC2
