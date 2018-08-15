@@ -5,6 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "build": "docker build -t benfranzi/aurora:latest .",
+    "docker-push": "docker push benfranzi/aurora:latest",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BenFranzi",

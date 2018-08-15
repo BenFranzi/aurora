@@ -13,5 +13,9 @@ app.get('/linkedin', (req, res) => {
     res.redirect(301, 'https://www.linkedin.com/in/benfranzi/')
 });
 
+app.get('/github', (req, res) => {
+    res.redirect(301, 'https://github.com/BenFranzi/')
+});
+
 app.listen(app.get('port'), app.get('host'));
 console.log(`Running on http://${app.get('host')}:${app.get('port')}`);
