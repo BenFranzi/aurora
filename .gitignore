@@ -63,3 +63,6 @@ typings/
 
 # DS_Store files from Mac
 .DS_Store
+
+#lock files
+yarn.lock
